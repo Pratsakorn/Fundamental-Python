@@ -5,7 +5,7 @@
 Weight,hight=float(input("Your weight(Kg)\n")),float(input("Your hight(cm)\n"))
 #process
 #cm => m
-Hight= (hight/100) '''hight/=100'''
+Hight= (hight/100) #hight/=100
 #Calculate BMI
 BMI = (Weight/(Hight**2))
 #output
